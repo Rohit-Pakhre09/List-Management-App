@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+
+    <!-- Css Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=ZlYuC9i0A5Tx&format=png&color=000000">
+</head>
+
+<body>
+
+    <!-- Main Container -->
+    <main class="container">
+
+        <!-- Input Details -->
+        <form id="task-form">
+
+            <div id="title">Input Details.</div>
+            <hr>
+
+            <input type="text" id="name" placeholder="List Name">
+            <input type="text" placeholder="Description" id="desc">
+            <input type="date" id="time" placeholder="Due Time">
+            <select id="select">
+                <option value="">Select Priority</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+
+            <!-- Button -->
+            <button id="btn">Submit</button>
+
+            <div id="msg"></div>
+
+        </form>
+
+        <!-- Showing Lists -->
+        <div class="lists">
+            <div id="headline">Number Of Lists.</div>
+            <hr>
+            <div id="outputs"></div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

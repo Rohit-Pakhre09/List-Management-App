@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Special+Gothic+Expanded+One&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(34, 33, 33);
+}
+
+.container {
+    height: 800px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    /* background-color: light; */
+    /* backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3); */
+}
+
+form {
+    height: 650px;
+    width: 25%;
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.lists {
+    height: 750px;
+    width: 400px;
+    flex-grow: 1;
+    border-radius: 20px;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+}
+
+input {
+    height: 50px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    letter-spacing: 4px;
+}
+
+#title {
+    font-size: 30px;
+    margin: 20px 0px 0px;
+    font-weight: 500;
+}
+
+hr {
+    border: 1px solid rgba(0, 0, 0, 0.178);
+}
+
+#desc {
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    letter-spacing: 4px;
+    background-color: white;
+}
+
+#options {
+    height: auto;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 20px;
+    background-color: white;
+}
+
+#btn {
+    height: 70px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    font-size: 20px;
+    letter-spacing: 7px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#headline {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: rgb(41, 40, 40);
+    letter-spacing: 4px;
+}
+
+#msg {
+    font-weight: 400;
+    color: red;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+#outputs {
+    height: 620px;
+    /* background-color: red; */
+    margin: 20px 0px;
+    overflow: scroll;
+    padding: 20px;
+}
+
+#outputs::-webkit-scrollbar {
+    width: 0;
+}
+
+#select {
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
